@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.title {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+
+    color: #114eaf;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+td {
+    border: 2px dashed black; /* Прерывистая граница */
+    padding: 10px;
+}
+.last-row td {
+    border: 2px dashed black; /* Сплошная граница */
+    text-align: right; /* Выравнивание текста вправо */
+}
+
+.first-row td {
+    border: none;
+    color: red;
+}
+
+.first-cell {
+    border-left: 2px dashed black;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.last-cell {
+    border-right: 2px dashed black;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.middle-cell {
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
